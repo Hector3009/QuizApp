@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Kumar+One&family=Libre+Baskerville:wght@700&family=Plus+Jakarta+Sans:ital,wght@0,600;1,400&family=Source+Sans+3:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>App Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="game">
+        <div class="contenido">
+          <h1 class="pregunta"></h1>
+          <div class="respuestas">
+            <div class="respuesta"></div>
+          </div>
+        </div>
+        <button class="enviar">Enviar</button>
+      </div>
+      <div class="resultado">
+        <h1>Felicitaciones</h1>
+        <h3 class="correcto"></h3>
+        <h3 class="incorrecto"></h3>
+        <h2 class="score"></h2>
+        <button class="jugar">Jugar de nuevo</button>
+      </div>
+    </div>
+
+    <script src="./quiz.js"></script>
+  </body>
+</html>
